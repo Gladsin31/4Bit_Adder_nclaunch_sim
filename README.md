@@ -84,11 +84,15 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![pdvlsi 01](https://github.com/user-attachments/assets/7e36f683-9c47-439c-87fd-2519022c406f)
+
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+
+![03](https://github.com/user-attachments/assets/fecb9ab2-a76e-48d9-869a-da91bd88710f)
 
 ### Fig 5:cds.lib file Creation
 
@@ -100,7 +104,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![04](https://github.com/user-attachments/assets/22116791-ff1d-4542-87f7-7fc8bfe7af45)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -111,6 +115,8 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+
+![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 
 ### Fig 7: Nclaunch Window
 
@@ -131,15 +137,22 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
+![Screenshot (21)](https://github.com/user-attachments/assets/4c0c3482-3c5e-4dce-aef5-ee85a74ff768)
+
 ### Fig 8: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
 
 	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
 
-	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to 
+
+their physical directory paths. For this Design, you will define a library called “worklib”
+
+![Screenshot 2024-09-26 162538](https://github.com/user-attachments/assets/52bf9620-c4f1-4514-a42f-c3d0d943284f)
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
+
 	Inputs: Top level design / test bench Verilog codes 
 
 	Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
@@ -154,6 +167,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
+![Screenshot (22)](https://github.com/user-attachments/assets/3b0f6cee-b698-49a4-b816-3d84ab301bcc)
+
 ### Fig 9: Elaboration Launch Option
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -166,9 +181,15 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
+![Screenshot (23)](https://github.com/user-attachments/assets/ed339267-5a18-4d00-9e27-8a259adfe42d)
+
 ### Fig 10: Design Browser window for simulation
 
+![Screenshot (24)](https://github.com/user-attachments/assets/9789421a-e7c7-45e1-bfb7-a61a93206ed3)
+
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+
+![Screenshot (25)](https://github.com/user-attachments/assets/cefb4adf-5b7d-4a53-8cc3-a744a3e8c2cd)
 
 ### Fig 12: Simulation Waveform Window
 
