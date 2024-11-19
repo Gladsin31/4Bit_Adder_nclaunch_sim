@@ -92,7 +92,7 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![03](https://github.com/user-attachments/assets/fecb9ab2-a76e-48d9-869a-da91bd88710f)
+![Screenshot (65)](https://github.com/user-attachments/assets/a8cde842-e067-4f40-ac16-28457a3ca385)
 
 ### Fig 5:cds.lib file Creation
 
@@ -104,7 +104,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![04](https://github.com/user-attachments/assets/22116791-ff1d-4542-87f7-7fc8bfe7af45)
+![Screenshot (67)](https://github.com/user-attachments/assets/7d7bf4a1-c824-4d14-a205-4c96f325ea97)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -116,7 +116,7 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![Screenshot (66)](https://github.com/user-attachments/assets/03c47536-64a1-467c-8f19-5c660b084d47)
 
 ### Fig 7: Nclaunch Window
 
